@@ -87,6 +87,8 @@ article ul {
     display: block;
 }
 
+
+
 .prod{
     width:180px;
     height:180px;
@@ -96,7 +98,13 @@ article ul {
     text-align: center;
     margin-top: 10px;
     font-size: 13px;
+    word-wrap: normal;
+    height: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
+
+
 
 .cantidad {
     display: none;
