@@ -80,7 +80,7 @@ article{
 	height:350px;
 	}
 	
-article ul {
+/* article ul {
     width: 100%;
     height:350px;
 }
@@ -100,8 +100,69 @@ article ul {
 
 .listprod:hover > .agregar, .listprod:hover > .cantidad{
     display: block;
+} */
+.row {
+    margin-left: 0px;
 }
 
+#carrusel {
+    float:left;
+    width:870px;
+    overflow:hidden;
+    height:380px;
+    position:relative;
+    margin-top:0px;
+    margin-bottom:20px;
+}
+
+#carrusel .left-arrow {
+    position:absolute;
+    left:10px;
+    z-index:1;
+    top:50%;
+    margin-top:-9px;
+}
+
+#carrusel .right-arrow {
+    position:absolute;
+    right:10px;
+    z-index:1;
+    top:50%;
+    margin-top:-9px;
+}
+
+.carrusel {
+    width:4000px;
+    left:0px;
+    position:absolute;
+    z-index:0;
+}
+
+.carrusel>div {
+    float: left;
+    height: 370px;
+    margin-right: 5px;
+    width: 213px;
+    text-align:center;
+}
+
+.carrusel>div:hover{
+    border: 4px solid #CCCCCC;
+    border-radius: 5px;
+}
+
+.carrusel img {
+    cursor:pointer;
+}
+
+/* .product {
+    border:#CCCCCC 1px solid;
+    border-radius: 5px;
+} */
+
+.product:hover > .cantidad , .product:hover > .agregar {
+    display: block;
+}
 
 .prod{
     width:180px;
@@ -121,10 +182,9 @@ article ul {
 .cantidad {
     display: none;
     width: 115px;
-    text-align: center;
     border: 1px solid #dfe1e5;
     margin-top: 10px;
-    margin-left: 35px;
+    margin-left: 45px;
     border-radius: 5px;
     padding-top: 7px;
 }
@@ -144,7 +204,7 @@ article ul {
 .bttn {
     text-align: center;
     background-color: red;
-    margin: 10px 0 0 30px;
+    margin: 10px 0 0 0;
     font-size: 12px;
     font-weight: bolder;
     width: 125px;
