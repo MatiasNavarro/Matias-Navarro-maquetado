@@ -2,21 +2,36 @@
 	margin:0;
 	padding:0;
 	list-style:none;
-	}
+    }
+    
+html {
+    position: relative;
+    min-height: 100%;
+    }
+
+body{
+    display: block;
+}
+
+ul{
+    display: block;
+}
 
 #top{
 	position:relative;
 	margin:20px auto;
-	width:100%;
+	width:1300px;
 	height:203px;
 	}
 
 #top ul{
-	width:100%;
+    position: relative;
+	width:1280px;
 	height:203px;
 	}
 	
 #top ul li{
+    position: relative;
 	float:left;
 	width:326px;
 	height:203px;
@@ -88,7 +103,6 @@ article ul {
 }
 
 
-
 .prod{
     width:180px;
     height:180px;
@@ -103,8 +117,6 @@ article ul {
     overflow: hidden;
     text-overflow: ellipsis;
 }
-
-
 
 .cantidad {
     display: none;
@@ -122,10 +134,6 @@ article ul {
     width: 40px;
     border: none;
     text-align: right;
-}
-
-.carousel{
-    width: 450px;
 }
 
 .agregar {
